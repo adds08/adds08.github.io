@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atish</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/devicon.css">
+
+    <!--  if you want colored versions -->
+    <link rel="stylesheet" href="css/devicon-colors.css">
+    <link rel="stylesheet" href="css/flag-icon.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+    <div class="main-body">
+        <div class="left-content">
+            <ul class="collapsible popout" id="my-info">
+                <li>
+                    <div class="collapsible-header">
+                        <i class="material-icons">local_phone</i>Contact Me</div>
+                    <div class="collapsible-body">
+                        <span>
+                            <ul>
+                                <li><b>Email :</b> atishshakya@gmail.com</li>
+                                <li><b>Phone :</b> +977 9841773445</li>
+                            </ul>
+                        </span>
+                    </div>
+                </li>
+                <br>
+                <li>
+                    <div class="collapsible-header">
+                        <i class="material-icons">place</i>Location</div>
+                    <div class="collapsible-body">
+                        <span>Kathmandu, Nepal. <span class="flag-icon flag-icon-np" style="font-size: 20pt;"></span></span>
+                    </div>
+                </li>
+                <br>
+                <li class="active">
+                    <div class="collapsible-header">
+                        <i class="material-icons">wb_cloudy</i>Network & Repository</div>
+                    <div class="collapsible-body">
+                        <ul class="social-icons">
+                            <li> <a href="#" target="_blank"><i class="devicon-facebook-plain colored"></i></a> </li>
+                            <li> <a href="https://www.instagram.com/adds08/" target="_blank"><img src="images/Instagram-Icon.png" width=30 alt="instagram" srcset=""></a> </li>
+                            <li> <a href="https://twitter.com/ats_adds08" target="_blank"><i class="devicon-twitter-plain colored"></i></a> </li>
+                            <li> <a href="#" target="_blank"><i class="devicon-github-plain colored"></i></a> </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="middle-content">
+            <h3>Atish Shakya</h3>
+            <h5>I am an Engineer, Programmer and Designer.</h5>
+            <img id="my-head" src="images/main-me.png" width=400>            
+            <h6>Currently working under <a href="http://www.digitalfortify.com/"><b>Digital Fortify</b></a> as Senior Programmer/Analyst</h6>
+
+        </div>
+        <div class="right-content">
+            <ol id="chip-skill">
+            </ol>
+        </div>
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script src="js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.collapsible').collapsible();
+            let skills = {
+                name: ['HTML', 'JavaScript', 'CSS/SASS', 'Bootstrap', 'Apache', 'Nginx', 'PHP', 'NodeJS', 'Java', 'MySQL', 'postgreSQL', 'MongoDB', 'Hybrid Mobile (Flutter)', 'Android Mobile', 'Open ComputerVision'],
+                location: ['html5', 'jquery', 'css3', 'bootstrap', 'apache', 'nginx', 'php', 'nodejs', 'java', 'mysql', 'postgresql', 'mongodb', 'google', 'android', 'opencv']
+            }
+            console.log(skills.name.length);
+            console.log(skills.location.length);
+            for (let i = 0; i < skills.name.length; i++) {
+                $('#chip-experience').append(`
+                    <li>
+                        <div class="chip">
+                            <i class="devicon-${skills.location[i]}-plain colored" style="font-size:22px"></i>
+                            <font style="font-size:20px;">${skills.name[i]}</font>
+                        </div>
+                    </li>                
+                `);
+            }
+            for (let i = 0; i < skills.name.length; i++) {
+                $('#chip-skill').append(`
+                    <li>
+                        <div class="chip">
+                            <i class="devicon-${skills.location[i]}-plain colored" style="font-size:22px"></i>
+                            <font style="font-size:20px;">${skills.name[i]}</font>
+                        </div>
+                    </li>                 
+                `);
+            }
+
+        });
+    </script>
+</body>
+
+</html>
