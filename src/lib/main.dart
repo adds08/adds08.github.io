@@ -243,7 +243,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                 Expanded(
                   child: RiveAnimation.asset(
                     onInit: _onRiveInit,
-                    'pixel_adds08_move.riv',
+                    'assets/pixel_adds08_move.riv',
                     placeHolder: const Placeholder(),
                   ),
                 ),
