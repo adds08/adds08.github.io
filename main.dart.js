@@ -69397,7 +69397,7 @@ s($,"aAX","acl",()=>A.ad3(new A.XU(),t.S))
 s($,"aAW","ack",()=>A.ad3(new A.XS(),t.S))
 s($,"aAZ","Rm",()=>new A.a7y(A.asF(A.a([1,0,0,1,0,0],t.n))))
 s($,"aCt","Rr",()=>A.ad3(new A.a4Z(),t.K))
-s($,"aEO","Ca",()=>A.asR(10))})();(function nativeSupport(){!function(){var s=function(a){var m={}
+s($,"aEO","Ca",()=>A.asR(50))})();(function nativeSupport(){!function(){var s=function(a){var m={}
 m[a]=1
 return Object.keys(hunkHelpers.convertToFastObject(m))[0]}
 v.getIsolateTag=function(a){return s("___dart_"+a+v.isolateTag)}
