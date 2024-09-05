@@ -8,7 +8,7 @@ import 'package:typewritertext/typewritertext.dart';
 
 enum AppEnvironment { dev, testing, production }
 
-const AppEnvironment appEnvironment = AppEnvironment.dev;
+const AppEnvironment appEnvironment = AppEnvironment.production;
 const double verticalPadding = 12;
 final Duration textTypingAnimationDuration = (appEnvironment == AppEnvironment.dev) ? 10.ms : 50.ms;
 

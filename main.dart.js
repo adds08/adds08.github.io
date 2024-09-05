@@ -63615,7 +63615,7 @@ if(p!=null)p.rv(!0)}},
 a0(a){var s,r=this,q=null
 A.p6("hi")
 s=t.af
-return A.Is(A.a([A.vu(A.acM(q,A.aeb("Profile here",q,q,q,q,q,q,q,q,q,q,q,q,q),q,q,q,q,q,q),2,q),A.vu(A.adL(A.acI(A.a([A.vu(new A.xX("pixel_adds08_move.riv",B.tQ,r.gXy(),q),1,q),A.SX(A.Is(A.a([A.adA(B.Ma,new A.a8Y(r)),A.adA(B.M9,new A.a8Z(r)),A.adA(B.M8,new A.a9_(r))],s),B.bp,B.oR,B.aE),q,q)],s),B.bp,B.b4,B.aE),"This is Me!"),1,q)],s),B.yB,B.b4,B.aE)}}
+return A.Is(A.a([A.vu(A.acM(q,A.aeb("Profile here",q,q,q,q,q,q,q,q,q,q,q,q,q),q,q,q,q,q,q),2,q),A.vu(A.adL(A.acI(A.a([A.vu(new A.xX("assets/pixel_adds08_move.riv",B.tQ,r.gXy(),q),1,q),A.SX(A.Is(A.a([A.adA(B.Ma,new A.a8Y(r)),A.adA(B.M9,new A.a8Z(r)),A.adA(B.M8,new A.a9_(r))],s),B.bp,B.oR,B.aE),q,q)],s),B.bp,B.b4,B.aE),"This is Me!"),1,q)],s),B.yB,B.b4,B.aE)}}
 A.a8Y.prototype={
 $0(){var s=this.a
 s.av(new A.a8X(s))},
